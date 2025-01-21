@@ -1,9 +1,9 @@
 # Face Recognition Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create VITE App](https://vite.dev/).
 
 ## Overview
-This project is a web application developed using React.js and face-api.js for face recognition. The app allows users to detect and recognize faces in a live webcam stream using pre-trained models. It also includes the ability to label and recognize specific faces.
+This project is a web application developed using TypeScript.js and face-api.js for face recognition. The app allows users to detect and recognize faces in a live webcam stream using pre-trained models. It also includes the ability to label and recognize specific faces.
 
 ## Features
 
@@ -17,17 +17,17 @@ Displaying bounding boxes and labels for recognized faces
 In the project directory, you can run:
 
 ### Clone the project repository:
-### `git clone https://github.com/Prakashkakarlla/FaceRecog`
+### `git clone https://github.com/Prakashkakarlla/project_Face`
 
 ### Install dependencies:
-### `cd FaceRecog`
+### `cd project_Face`
 ### `npm install`
 
 ### Start the development server:
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -44,11 +44,12 @@ public: Contains the HTML template and assets.\
 src: Contains the React components and app logic.\
 components: Contains the main App component and other UI components.\
 models: Contains the pre-trained face recognition models.\
-style.css: Contains the CSS styles for the app.
+Tailwind style.css: Contains the CSS styles for the app.
 
 ## Dependencies
 
 React.js: JavaScript library for building user interfaces\
+TypeScript.js: JavaScript library for building user interfaces\
 face-api.js: JavaScript API for face detection and recognition
 
 ## Credits
